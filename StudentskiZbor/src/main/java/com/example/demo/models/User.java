@@ -32,6 +32,7 @@ public class User {
 	@Column
 	private String password;
 	
+	
 	private Set<Role> roles;
 	
 	@ManyToMany(cascade = CascadeType.ALL)
